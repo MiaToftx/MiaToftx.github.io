@@ -914,6 +914,7 @@ body::-webkit-scrollbar-thumb:hover {
     }
 
     #topleft {
+        flex-basis: 47%;
         margin-top: 6%;
         margin-left: 3%;
     }
