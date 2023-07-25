@@ -893,13 +893,13 @@ body::-webkit-scrollbar-thumb:hover {
     #about,
     #contact {
         padding: 0.8em;
-        font-size: 1.2vw;
+        font-size: 1vw;
     }
 
     .linkedIn,
     .gitHub {
-        height: 2vw;
-        width: 2vw;
+        height: 1.8vw;
+        width: 1.8vw;
     }
 
     #leftSideOfMenu {
@@ -923,15 +923,15 @@ body::-webkit-scrollbar-thumb:hover {
     }
 
     h1 {
-        font-size: 3.8vw;
+        font-size: 3.5vw;
     }
 
     h2 {
-        font-size: 2.3vw;
+        font-size: 2vw;
     }
 
     button {
-        font-size: 1.4vw;
+        font-size: 1.2vw;
         padding: 0.5em;
         border-radius: 10px;
         border-width: 0.2em;
@@ -954,16 +954,16 @@ body::-webkit-scrollbar-thumb:hover {
     }
 
     .projectInfo {
-        font-size: 1.4vw;
+        font-size: 1.2vw;
     }
 
     #descriptionHeader,
     #infoHeader {
-        font-size: 1.3vw;
+        font-size: 1.2vw;
     }
 
     .projectDescriptionP {
-        font-size: 1.1vw;
+        font-size: 1vw;
     }
 
     .outerProjectSkillsSegment {
@@ -972,7 +972,7 @@ body::-webkit-scrollbar-thumb:hover {
 
     .learnedSkillsSegment,
     .improvedSkillsSegment {
-        font-size: 1.1vw;
+        font-size: 1vw;
     }
 
     .githubLinkSegment {
@@ -980,13 +980,13 @@ body::-webkit-scrollbar-thumb:hover {
     }
 
     .projectLinkGitHub {
-        height: 3.2vw;
-        width: 3.2vw;
+        height: 3vw;
+        width: 3vw;
     }
 
     .goToLinkParagraph {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2vw;
+        font-size: 1vw;
         font-weight: bold;
         margin-top: 0;
     }
@@ -1032,15 +1032,15 @@ body::-webkit-scrollbar-thumb:hover {
     }
 
     #aboutMeHeader, #experienceContainerHeader, #skillsHeader {
-        font-size: 1.3vw;
+        font-size: 1.2vw;
     }
 
     #aboutMeParagraph, .experienceText, .skill {
-        font-size: 1vw;
+        font-size: 0.8vw;
     }
 
     .experienceHeader, #languageHeader, #characteristicsHeader, #toolsHeader, #gradesHeader {
-        font-size: 1.1vw;
+        font-size: 0.9vw;
     }
 
     .experienceHeader, #characteristicsHeader, #toolsHeader, #gradesHeader {
@@ -1067,11 +1067,11 @@ body::-webkit-scrollbar-thumb:hover {
     }
 
     #pleaseContactMe {
-        font-size: 2.5vw;
+        font-size: 2.2vw;
     }
 
     #mail, #phone, .contactParagraph {
-        font-size: 1.5vw;
+        font-size: 1.3vw;
     }
 
     /* Shared elements */
@@ -1082,7 +1082,7 @@ body::-webkit-scrollbar-thumb:hover {
     }
 
     .sliderItem {
-        font-size: 1.2vw;
+        font-size: 1vw;
     }
   
 }
