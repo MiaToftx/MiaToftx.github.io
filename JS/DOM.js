@@ -330,7 +330,7 @@ function createGitHubLink(container, project) {
   // Create an image element for the GitHub logo
   let gitHubImg = document.createElement("img");
   gitHubImg.className = "projectLinkGitHub";
-  gitHubImg.src = "/assets/images/GitHub-logo.jpeg";
+  gitHubImg.src = "./images/GitHub-logo.jpeg";
 
   // Append the GitHub logo to the GitHub link
   gitHubLink.appendChild(gitHubImg);
