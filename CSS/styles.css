@@ -915,8 +915,8 @@ body::-webkit-scrollbar-thumb:hover {
 
     #topleft {
         flex-basis: 45%;
-        margin-top: 6%;
-        margin-left: 3%;
+        margin-top: 8%;
+        margin-left: 4%;
     }
     
     #topright {
