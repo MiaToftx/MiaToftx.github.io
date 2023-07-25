@@ -893,7 +893,7 @@ body::-webkit-scrollbar-thumb:hover {
     #about,
     #contact {
         padding: 0.8em;
-        font-size: 1vw;
+        font-size: 0.5vw;
     }
 
     .linkedIn,
