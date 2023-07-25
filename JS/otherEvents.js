@@ -11,5 +11,5 @@ let contactMeButton = document.getElementById("contactBtn")
 contactMeButton.addEventListener("click", goToContactPage)
 
 async function goToContactPage() {
-  document.location.href = "/assets/HTML/contactpage.html"
+  document.location.href = "/HTML/contactpage"
 }
