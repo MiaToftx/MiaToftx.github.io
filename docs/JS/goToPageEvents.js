@@ -2,7 +2,7 @@ let homeButton = document.getElementById("home")
 homeButton.addEventListener("click", goToHomePage)
 
 async function goToHomePage() {
-  document.location = "/docs/HTML/index.html"
+  document.location = "../index.html"
 }
 
 let contactInfoButton = document.getElementById("contact")
