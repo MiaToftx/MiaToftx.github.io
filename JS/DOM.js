@@ -19,14 +19,14 @@ const projectsList = [
       "I have placed a great emphasis on writing organized and readable code, creating thorough documentation, " +
       "and providing explanatory comments where necessary.",
       largeImages: [
-        "/assets/images/portfolioProject/project1image1.jpg",
-        "/assets/images/portfolioProject/project1image2.jpg",
-        "/assets/images/portfolioProject/project1image3.jpg"
+        "./images/portfolioProject/project1image1.jpg",
+        "./images/portfolioProject/project1image2.jpg",
+        "./images/portfolioProject/project1image3.jpg"
       ],
       smallImages: [
-        "/assets/images/portfolioProject/project1image1small.jpg",
-        "/assets/images/portfolioProject/project1image2small.jpg",
-        "/assets/images/portfolioProject/project1image3small.jpg"
+        "./images/portfolioProject/project1image1small.jpg",
+        "./images/portfolioProject/project1image2small.jpg",
+        "./images/portfolioProject/project1image3small.jpg"
       ],
       newSkills: [
         "HTML", "CSS", "Javascript", "Frontend Development", "Functional Programming", "Responsive Web Design"
@@ -43,14 +43,14 @@ const projectsList = [
       descriptionHeader: "Description of Project 2",
       description: "",
       largeImages: [
-        "/assets/images/portfolioProject/project1image1.jpg",
-        "/assets/images/portfolioProject/project1image2.jpg",
-        "/assets/images/portfolioProject/project1image3.jpg"
+        "./images/portfolioProject/project1image1.jpg",
+        "./images/portfolioProject/project1image2.jpg",
+        "./images/portfolioProject/project1image3.jpg"
       ],
       smallImages: [
-        "/assets/images/portfolioProject/project1image1.jpg",
-        "/assets/images/portfolioProject/project1image2.jpg",
-        "/assets/images/portfolioProject/project1image3.jpg"
+        "./images/portfolioProject/project1image1small.jpg",
+        "./images/portfolioProject/project1image2small.jpg",
+        "./images/portfolioProject/project1image3small.jpg"
       ],
       newSkills: [
         "HTML", "CSS", "Javascript", "Frontend development", "Functional programming"
@@ -67,14 +67,14 @@ const projectsList = [
       descriptionHeader: "Description of Project 3",
       description: "",
       largeImages: [
-        "/assets/images/portfolioProject/project1image1.jpg",
-        "/assets/images/portfolioProject/project1image2.jpg",
-        "/assets/images/portfolioProject/project1image3.jpg"
+        "./images/portfolioProject/project1image1.jpg",
+        "./images/portfolioProject/project1image2.jpg",
+        "./images/portfolioProject/project1image3.jpg"
       ],
       smallImages: [
-        "/assets/images/portfolioProject/project1image1.jpg",
-        "/assets/images/portfolioProject/project1image2.jpg",
-        "/assets/images/portfolioProject/project1image3.jpg"
+        "./images/portfolioProject/project1image1small.jpg",
+        "./images/portfolioProject/project1image2small.jpg",
+        "./images/portfolioProject/project1image3small.jpg"
       ],
       newSkills: [
         "HTML", "CSS", "Javascript", "Frontend development", "Functional programming"
