@@ -2,7 +2,7 @@ let homeButton = document.getElementById("home")
 homeButton.addEventListener("click", goToHomePage)
 
 async function goToHomePage() {
-  document.location = "https://miatoftx.github.io/index.html"
+  document.location = "/"
 }
 
 let contactInfoButton = document.getElementById("contact")
