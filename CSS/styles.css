@@ -914,13 +914,14 @@ body::-webkit-scrollbar-thumb:hover {
     }
 
     #topleft {
-        flex-basis: 47%;
+        flex-basis: 45%;
         margin-top: 6%;
         margin-left: 3%;
     }
     
     #topright {
         margin-top: 3%;
+        margin-right: 3%;
     }
 
     h1 {
