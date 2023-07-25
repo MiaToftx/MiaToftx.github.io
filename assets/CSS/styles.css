@@ -1,0 +1,1089 @@
+/* Default styles */
+#flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#menubar {
+    display: flex;
+    flex-basis: 100%;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+}
+
+#leftSideOfMenu {
+    flex-basis: 80%;
+}
+
+#channels {
+    flex-basis: 13%;
+    margin-top: 1.5%;
+    text-align: right;
+    margin-right: 3%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo,
+#home,
+#about,
+#contact {
+    display: inline-block;
+    color: rgb(44, 111, 211);
+    padding: 1em;
+    font-size: 1.3vw;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#home,
+#about,
+#contact {
+    cursor: pointer;
+}
+
+#home:hover,
+#about:hover,
+#contact:hover {
+    color: rgb(16, 70, 151);
+    transition: color 0.4s;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 100%;
+}
+
+#topleft {
+    flex-basis: 50%;
+    margin-top: 7%;
+}
+
+#profileInfo {
+    margin-left: 4%;
+}
+
+h1 {
+    font-size: 4.1vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#buttons {
+    margin-left: 4%;
+    margin-top: 10%;
+}
+
+button {
+    background-color: white;
+    border-radius: 15px;
+    padding: 1.5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-right: 5%;
+    color: rgb(55, 123, 225);
+    font-size: 1.65vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    border-color: rgb(55, 123, 225);
+    border-width: 0.15em;
+}
+
+button:hover {
+    background-color: rgb(16, 70, 151);
+    border-color: rgb(16, 70, 151);
+    transition: background-color 0.3s;
+}
+
+#topright {
+    margin-top: 2.5%;
+    flex-basis: 40%;
+    text-align: center;
+}
+
+#footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 5%;
+    border-bottom: solid;
+    border-bottom-color: rgb(55, 123, 225);
+    border-bottom-width: 0.2em;
+    padding-bottom: 5%;
+}
+
+.projectContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 100%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.8%;
+    padding-left: 0.8%;
+    flex-basis: 27%;
+    text-align: left;
+    border-radius: 15px;
+    border: solid;
+    border-top-color: rgb(55, 123, 225);
+    border-left-color: rgb(55, 123, 225);
+    border-bottom-color: rgb(16, 70, 151);
+    border-right-color: rgb(16, 70, 151);
+    cursor: pointer;
+    color: rgb(55, 123, 225);
+    background-color: white;
+    border-width: 0.15em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.7vw;
+}
+
+.project:hover {
+    background-color: rgb(16, 70, 151);
+    border-color: rgb(16, 70, 151);
+    transition: background-color 0.3s;
+}
+
+.project.active {
+    background-color: rgb(55, 123, 225);
+    border-bottom-color: rgb(16, 70, 151);
+    color: white;
+    transition: background-color 0.2s;
+}
+
+.project.active:hover {
+    background-color: rgb(16, 70, 151);
+}
+
+.dropDown {
+    display: none;
+    flex-basis: 100%;
+    border-radius: 15px;
+    height: max-content;
+    padding-bottom: 2%;
+    margin-top: 3%;
+    background-color: rgb(225, 237, 253);
+}
+
+.pDrop {
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#outerPictureSliderContainer {
+    flex-basis: 100%;
+}
+
+#innerPictureSliderContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-basis: 100%;
+    text-align: center;
+    padding: 1%;
+    border: solid;
+    border-color: rgb(55, 123, 225);
+}
+
+.pictureSliderItem {
+    flex-basis: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 63vh;
+    width: 10vw;
+    border-radius: 15px;
+}
+
+#pictureDotsContainer {
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.pictureDot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(55, 123, 225);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.pictureDot.active {
+    background-color: rgb(16, 70, 151);
+}
+
+.topDrop {
+    height: fit-content;
+    flex-basis: 100%;
+}
+
+.leftDrop {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: 35%;
+    margin-right: 2%;
+    margin-top: 1.5%;
+}
+
+.rightDrop {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-basis: 62%;
+    margin-top: 3.8%;
+}
+
+#description {
+    flex-basis: 100%;
+    text-align: justify;
+    margin-left: 2%;
+}
+
+#extraInfo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    text-align: justify;
+}
+
+#descriptionHeader,
+#infoHeader {
+    flex-basis: 100%;
+    text-align: left;
+    margin-left: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+    border-bottom: 4px solid rgb(44, 111, 211);
+    padding-bottom: 5%;
+}
+
+#infoHeader {
+    padding-bottom: 2%;
+    margin-left: 2%;
+}
+
+.projectDescriptionP {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+    margin-left: 3%;
+    line-height: 1.5;
+}
+
+.outerProjectSkillsSegment {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-basis: 50%;
+}
+
+.learnedSkillsSegment,
+.improvedSkillsSegment {
+    flex-basis: 50%;
+    margin-left: 4%;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+}
+
+#dropDownFooter {
+    flex-basis: 100%;
+}
+
+.githubLinkSegment {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.projectLinkGitHub {
+    flex-basis: 100%;
+    height: 2.5vw;
+    width: 2.5vw;
+    border: solid transparent;
+    border-radius: 15px;
+    padding: 0.3em;
+    transition: border-color 0.3s;
+}
+
+.projectLinkGitHub:hover {
+    border-color: rgb(44, 111, 211);
+}
+
+.goToLinkParagraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.projectInfo {
+    font-size: 1.5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+#profilePic {
+    height: 88%;
+    width: 88%;
+    border-radius: 50%;
+    border: solid;
+    border-color: rgb(55, 123, 225);
+    border-width: 0.5em;
+}
+
+#logo {
+    color: white;
+    background-color: rgb(55, 123, 225);
+    border-radius: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border: solid;
+    border-color: rgb(16, 70, 151);
+    border-width: 0.2em;
+}
+
+#middle {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 80%;
+    margin-top: 10%;
+}
+
+.linkedIn, .gitHub {
+    height: 2.5vw;
+    width: 2.5vw;
+    border: solid transparent;
+    border-radius: 15px;
+    padding: 0.3em;
+    transition: border-color 0.3s;
+}
+
+.gitHub:hover,
+.linkedIn:hover {
+    border-color: rgb(44, 111, 211);
+}
+
+#sliderContainer {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    flex-basis: 100%;
+    text-align: center;
+    height: 3em;
+    margin: 1%;
+}
+
+.sliderItem {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 1.3vw;
+    font-weight: light;
+    font-style: italic;
+    font-family: 'Franklin Gothic Light', sans-serif;
+    height: 2em;
+}
+
+#dots {
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(189, 216, 255);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dot.active {
+    background-color: rgb(16, 70, 151);
+}
+
+#contactRight {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
+    flex-basis: 30%;
+    background-color: rgb(189, 216, 255);
+    border-radius: 15px;
+    margin-top: 13%;
+    padding: 1%;
+    margin-bottom: 13%;
+}
+
+#mail,
+#phone {
+    margin-left: 3%;
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#pleaseContactMe {
+    font-size: 3.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#contactLeft {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: 55%;
+    margin-top: 7%;
+
+}
+
+.contactParagraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+
+}
+
+#aboutRight {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: 28%;
+    margin-top: 5%;
+}
+
+#aboutLeft {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: 68%;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+#aboutMeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: 100%;
+    background-color: rgb(189, 216, 255);
+    margin-right: 5%;
+    border-radius: 15px;
+    margin-bottom: 5%;
+    padding: 2.7%;
+}
+
+#aboutMeParagraph {
+    margin-bottom: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4vw;
+    line-height: 1.5;
+}
+
+#skillsHeader,
+#experienceContainerHeader {
+    font-size: 1.8vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#experienceContainerHeader {
+    border-bottom: 4px solid rgb(44, 111, 211);
+    padding-bottom: 10px;
+}
+
+#aboutMeHeader {
+    font-size: 2.2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 4px solid rgb(44, 111, 211);
+    padding-bottom: 10px;
+}
+
+#experienceContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: 100%;
+    background-color: rgb(189, 216, 255);
+    margin-right: 5%;
+    border-radius: 15px;
+    margin-bottom: 5%;
+    padding: 2.7%;
+}
+
+.experienceHeader {
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.experienceText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+    line-height: 1.4;
+}
+
+#skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: 100%;
+    border: solid;
+    border-width: 3px;
+    border-color: rgb(189, 216, 255);
+    margin-right: 5%;
+    border-radius: 15px;
+    padding-left: 2%;
+    margin-bottom: 5%;
+}
+
+#skillsHeaderContainer {
+    flex-basis: 90%;
+    margin-left: 5%;
+    border-bottom: 4px solid rgb(44, 111, 211);
+}
+
+#skillElementsContainer {
+    flex-basis: 100%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+#languageHeader,
+#characteristicsHeader,
+#toolsHeader,
+#gradesHeader {
+    font-size: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.experienceHeader,
+#characteristicsHeader,
+#toolsHeader,
+#gradesHeader {
+    margin-top: 5%;
+}
+
+.skill {
+    font-size: 1.3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1.7%;
+
+}
+
+.skillBar {
+    margin: 2%;
+    width: 200px;
+    height: 20px;
+}
+
+.bar {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(189, 216, 255);
+    position: relative;
+    border-radius: 15px;
+}
+
+.fill {
+    height: 100%;
+    background-color: rgb(44, 111, 211);
+    border-radius: 15px;
+}
+
+#fillDanish {
+    width: 100%;
+}
+
+#fillEnglish {
+    width: 80%;
+}
+
+/* Scrollbar width */
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+    background: rgb(215, 232, 255);
+    border-radius: 15px;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background: rgb(44, 111, 211);
+    border-radius: 15px;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: rgb(16, 70, 151);
+}
+
+/* Mobile devices */
+@media screen and (max-width: 768px) {
+
+    /* Frontpage */
+    #logo,
+    #home,
+    #about,
+    #contact {
+        padding: 0.5em;
+        font-size: 2.5vw;
+    }
+
+    .linkedIn,
+    .gitHub {
+        height: 3.8vw;
+        width: 3.8vw;
+    }
+
+    #leftSideOfMenu {
+        flex-basis: 78%;
+    }
+    
+    #channels {
+        flex-basis: 20%;
+        margin-top: 2.2%;
+        text-align: right;
+        margin-right: 1%;
+    }
+
+    #topleft {
+        margin-top: 4%;
+    }
+    
+    #topright {
+        margin-top: 8%;
+    }
+
+    h1 {
+        font-size: 6vw;
+    }
+
+    h2 {
+        font-size: 4.2vw;
+    }
+
+    button {
+        font-size: 2.3vw;
+        padding: 0.5em;
+        border-radius: 10px;
+        border-width: 0.2em;
+    }
+
+    .leftDrop {
+        flex-basis: 42%;
+    }
+    
+    .rightDrop {
+        flex-basis: 55%;
+    }
+
+    .projectContainer {
+        margin: 3% 2%;
+    }
+
+    .project {
+        flex-basis: 100%;
+        border-width: 0.3em;
+    }
+
+    .projectInfo {
+        font-size: 2.3vw;
+    }
+
+    #descriptionHeader,
+    #infoHeader {
+        font-size: 1.9vw;
+    }
+
+    .projectDescriptionP {
+        font-size: 1.6vw;
+    }
+
+    .outerProjectSkillsSegment {
+        flex-basis: 60%;
+    }
+
+    .learnedSkillsSegment,
+    .improvedSkillsSegment {
+        font-size: 1.6vw;
+    }
+
+    .githubLinkSegment {
+        flex-basis: 40%;
+    }
+
+    .projectLinkGitHub {
+        height: 3.7vw;
+        width: 3.7vw;
+    }
+
+    .goToLinkParagraph {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.6vw;
+        font-weight: bold;
+        margin-top: 0;
+    }
+
+    #middle {
+        flex-basis: 100%;
+        margin-top: 20%;
+    }
+
+    .pictureSliderItem {
+        height: 48vh; 
+    }
+
+    .pictureDot {
+        height: 8px;
+        width: 8px;
+    }
+
+    #contactLeft,
+    #contactRight {
+        flex-basis: 100%;
+    }
+
+    #aboutLeft,
+    #aboutRight {
+        flex-basis: 100%;
+    }
+
+    #aboutMeContainer,
+    #experienceContainer,
+    #skillsContainer {
+        margin-right: 2%;
+    }
+
+    #aboutMeParagraph,
+    .experienceText,
+    .skill {
+        font-size: 3vw;
+    }
+
+    /* About me page */
+
+    #aboutRight {
+        margin-left: 0.5em;
+    }
+
+    #skillsHeaderContainer, #skillElementsContainer {
+        margin-left: 0;
+    }
+
+    #skillsHeaderContainer {
+        flex-basis: 40%;
+    }
+
+    #aboutMeHeader, #experienceContainerHeader, #skillsHeader {
+        font-size: 3vw;
+    }
+
+    #aboutMeParagraph, .experienceText, .skill {
+        font-size: 2.3vw;
+    }
+
+    .experienceHeader, #languageHeader, #characteristicsHeader, #toolsHeader, #gradesHeader {
+        font-size: 2.5vw;
+    }
+
+    .experienceHeader, #characteristicsHeader, #toolsHeader, #gradesHeader {
+        margin-top: 5%;
+    }
+
+    .skillBar {
+        width: 150px;
+        height: 15px;
+    }
+
+    /* Contact page */
+
+    #contactLeft {
+        margin-left: 2%;
+    }
+
+    #contactRight {
+        margin-top: 8%;
+        margin-bottom: 8%;
+        margin-left: 2%;
+        margin-right: 3%;
+    }
+
+    #pleaseContactMe {
+        font-size: 4.2vw;
+    }
+
+    #mail, #phone, .contactParagraph {
+        font-size: 2.7vw;
+    }
+
+    /* Shared elements */
+
+    /* Scrollbar width */
+    body::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    #sliderContainer {
+        height: 1.8em;
+    }
+
+    .sliderItem {
+        font-size: 2.2vw;
+    }
+
+    .dot {
+        height: 8px;
+        width: 8px;
+    }
+}
+
+/* Wide screens */
+@media screen and (min-width: 1600px) {
+    #flexContainer {
+      justify-content: space-between;
+      width: 85%;
+    }
+
+    /* Frontpage */
+    #logo,
+    #home,
+    #about,
+    #contact {
+        padding: 0.8em;
+        font-size: 1.2vw;
+    }
+
+    .linkedIn,
+    .gitHub {
+        height: 2vw;
+        width: 2vw;
+    }
+
+    #leftSideOfMenu {
+        flex-basis: 78%;
+    }
+    
+    #channels {
+        flex-basis: 20%;
+        margin-top: 2.2%;
+        text-align: right;
+        margin-right: 1%;
+    }
+
+    #topleft {
+        margin-top: 6%;
+        margin-left: 1%;
+    }
+    
+    #topright {
+        margin-top: 3%;
+    }
+
+    h1 {
+        font-size: 3.8vw;
+    }
+
+    h2 {
+        font-size: 2.3vw;
+    }
+
+    button {
+        font-size: 1.4vw;
+        padding: 0.5em;
+        border-radius: 10px;
+        border-width: 0.2em;
+    }
+
+    .leftDrop {
+        flex-basis: 42%;
+    }
+    
+    .rightDrop {
+        flex-basis: 55%;
+    }
+
+    .projectContainer {
+        margin: 3% 2%;
+    }
+
+    .project {
+        border-width: 0.2em;
+    }
+
+    .projectInfo {
+        font-size: 1.4vw;
+    }
+
+    #descriptionHeader,
+    #infoHeader {
+        font-size: 1.3vw;
+    }
+
+    .projectDescriptionP {
+        font-size: 1.1vw;
+    }
+
+    .outerProjectSkillsSegment {
+        flex-basis: 60%;
+    }
+
+    .learnedSkillsSegment,
+    .improvedSkillsSegment {
+        font-size: 1.1vw;
+    }
+
+    .githubLinkSegment {
+        flex-basis: 40%;
+    }
+
+    .projectLinkGitHub {
+        height: 3.2vw;
+        width: 3.2vw;
+    }
+
+    .goToLinkParagraph {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2vw;
+        font-weight: bold;
+        margin-top: 0;
+    }
+
+    #middle {
+        flex-basis: 100%;
+        margin-top: 20%;
+    }
+
+    .pictureSliderItem {
+        height: 65vh; 
+    }
+
+    .pictureDot, .dot {
+        margin-top: 1.5%;
+        margin-left: 0.2%;
+        margin-right: 0.2%;
+        height: 20px;
+        width: 20px;
+    }
+
+    /* About me page */
+
+    #aboutMeParagraph,
+    .experienceText,
+    .skill {
+        font-size: 3vw;
+    }
+
+    #skillsContainer {
+        padding-left: 5%;
+        padding-right: 3%;
+    }
+
+    #aboutRight {
+        margin-left: 0.5em;
+    }
+
+    #skillsHeaderContainer, #skillElementsContainer {
+        margin-left: 0;
+        margin-bottom: 1%;
+        margin-top: 4%;
+    }
+
+    #aboutMeHeader, #experienceContainerHeader, #skillsHeader {
+        font-size: 1.3vw;
+    }
+
+    #aboutMeParagraph, .experienceText, .skill {
+        font-size: 1vw;
+    }
+
+    .experienceHeader, #languageHeader, #characteristicsHeader, #toolsHeader, #gradesHeader {
+        font-size: 1.1vw;
+    }
+
+    .experienceHeader, #characteristicsHeader, #toolsHeader, #gradesHeader {
+        margin-top: 5%;
+    }
+
+    .skillBar {
+        width: 150px;
+        height: 15px;
+    }
+
+    /* Contact page */
+
+    #contactLeft {
+        margin-left: 3%;
+        margin-top: 7%;
+    }
+
+    #contactRight {
+        margin-top: 12%;
+        margin-bottom: 8%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #pleaseContactMe {
+        font-size: 2.5vw;
+    }
+
+    #mail, #phone, .contactParagraph {
+        font-size: 1.5vw;
+    }
+
+    /* Shared elements */
+
+    /* Scrollbar width */
+    body::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    .sliderItem {
+        font-size: 1.2vw;
+    }
+  
+}
+  
