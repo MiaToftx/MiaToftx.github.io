@@ -1,5 +1,7 @@
 # My Personal Portfolio
 
+Visit the [portfolio website](https://miatoftx.github.io/).
+
 ## Description
 
 This is a portfolio website showcasing a collection of my personal projects. The website is designed to be responsive and user friendly.
