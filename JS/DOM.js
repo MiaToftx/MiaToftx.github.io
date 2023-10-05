@@ -29,36 +29,36 @@ const projectsList = [
         "./images/portfolioProject/project1image3small.jpg"
       ],
       newSkills: [
-        "HTML", "CSS", "Javascript", "Frontend Development", "Functional Programming", "Responsive Web Design"
+        "HTML", "CSS", "Javascript", "Frontend development", "Functional programming"
       ],
       oldSkills: [
-        "Writing understandable code", "Avoiding code duplication", "Writing valuable documentation"
+        "Writing understandable code", "Avoid code duplication", "Write valuable documentation"
       ],
       gitHubLink: "https://github.com/MiaToftx/Portfolio-Website"
     },
     //Project 2 details
     {
       id: 2,
-      name: "2. Project",
-      descriptionHeader: "Description of Project 2",
+      name: "2. MoodTracker Project",
+      descriptionHeader: "A Website for Tracking your Mood, Stress Levels and to Submit Good Experiences",
       description: "",
       largeImages: [
-        "./images/portfolioProject/project1image1.jpg",
-        "./images/portfolioProject/project1image2.jpg",
-        "./images/portfolioProject/project1image3.jpg"
+        "./images/portfolioProject/project2image1.jpg",
+        "./images/portfolioProject/project2image2.jpg",
+        "./images/portfolioProject/project2image3.jpg"
       ],
       smallImages: [
-        "./images/portfolioProject/project1image1small.jpg",
-        "./images/portfolioProject/project1image2small.jpg",
-        "./images/portfolioProject/project1image3small.jpg"
+        "./images/portfolioProject/project2image1.jpg",
+        "./images/portfolioProject/project2image2.jpg",
+        "./images/portfolioProject/project2image3.jpg"
       ],
       newSkills: [
-        "HTML", "CSS", "Javascript", "Frontend development", "Functional programming"
+        "Spring Boot", "MongoDB Compass", "Postman", "React", "Bootstrap", "Node.js"
       ],
       oldSkills: [
-        "Writing understandable code", "Avoid code duplication", "Write valuable documentation"
+        "Java", "Javascript", "CSS", "Frontend Development", "Creating API for accessing and managing data", "Writing clean code", "Avoiding code duplication", "Writing valuable documentation"
       ],
-      gitHubLink: "https://github.com/"
+      gitHubLink: "https://github.com/MiaToftx/MoodTrackerProject"
     },
     //Project 3 details
     {
