@@ -10,10 +10,8 @@ const projectsList = [
       name: "1. Portfolio Website",
       descriptionHeader: "An Online Gallery of My Best Projects",
       description:
-      "I now have a greater and deeper respect for frontend developers. " +
       "With this project, I have been challenged in terms of my creativity and sense of aesthetics. " +
       "It has been a fun project, although a little outside of my comfort zone. " +
-      "I have truly had to embrace the expression 'kill your darlings', which has been a very hard but enlightening process. <br/><br/>" +
       "The project has been developed using HTML, CSS, and Javascript. " +
       "These are all technologies I have studied during my 3rd semester, and have now put into practice. " +
       "I have placed a great emphasis on writing organized and readable code, creating thorough documentation, " +
@@ -44,7 +42,7 @@ const projectsList = [
       description: "With this project i have challenged myself with using technologies i have no previous experience with. " +
       "I have used React, Bootstrap, MongoDB and Spring Boot for the first time, and had a great experience learning new skills. " +
       "But this project has also strengthened my current skillset in Java, " +
-      "Javascript, HTML and CSS. This project provided hands-on experience in crafting user-friendly applications" +
+      "Javascript, HTML and CSS. This project provided hands-on experience in crafting a user-friendly application " +
       "with a special emphasis on emotional health.",
       largeImages: [
         "./images/portfolioProject/project2image1.jpg",
@@ -63,6 +61,26 @@ const projectsList = [
         "Java", "Javascript", "CSS", "Frontend Development", "Creating an API", "Writing clean code", "Avoiding code duplication", "Writing valuable documentation"
       ],
       gitHubLink: "https://github.com/MiaToftx/MoodTrackerProject"
+    },
+    //Project 3 details
+    {
+      id: 3,
+      name: "3. Upcoming Project",
+      descriptionHeader: "Upcoming project in the making",
+      description: "I am always working on something - so i have either already started on my next project, or i am planning to start one.",
+      largeImages: [
+    
+      ],
+      smallImages: [
+        
+      ],
+      newSkills: [
+        
+      ],
+      oldSkills: [
+        
+      ],
+      gitHubLink: "https://github.com/MiaToftx"
     },
 ]
 
