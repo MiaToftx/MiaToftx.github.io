@@ -69,10 +69,14 @@ const projectsList = [
       descriptionHeader: "Upcoming project in the making",
       description: "I am always working on something - so i have either already started on my next project, or i am planning to start one.",
       largeImages: [
-    
+        "./images/portfolioProject/project3image1.jpg",
+        "./images/portfolioProject/project3image2.jpg",
+        "./images/portfolioProject/project3image3.jpg"
       ],
       smallImages: [
-        
+        "./images/portfolioProject/project3image1.jpg",
+        "./images/portfolioProject/project3image2.jpg",
+        "./images/portfolioProject/project3image3.jpg"
       ],
       newSkills: [
         
