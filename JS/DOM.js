@@ -40,8 +40,12 @@ const projectsList = [
     {
       id: 2,
       name: "2. MoodTracker Project",
-      descriptionHeader: "A Website for Tracking your Mood, Stress Levels and to Submit Good Experiences",
-      description: "",
+      descriptionHeader: "A Website for Tracking your Mood, Stress Levels and Submit Good Experiences",
+      description: "With this project i have challenged myself with using technologies i have no previous experience with. " +
+      "I have used React, Bootstrap, MongoDB and Spring Boot for the first time, and had a great experience learning new skills. " +
+      "But this project has also strengthened my current skillset in Java, " +
+      "Javascript, HTML and CSS. This project provided hands-on experience in crafting user-friendly applications" +
+      "with a special emphasis on emotional health.",
       largeImages: [
         "./images/portfolioProject/project2image1.jpg",
         "./images/portfolioProject/project2image2.jpg",
@@ -56,34 +60,10 @@ const projectsList = [
         "Spring Boot", "MongoDB Compass", "Postman", "React", "Bootstrap", "Node.js"
       ],
       oldSkills: [
-        "Java", "Javascript", "CSS", "Frontend Development", "Creating API for accessing and managing data", "Writing clean code", "Avoiding code duplication", "Writing valuable documentation"
+        "Java", "Javascript", "CSS", "Frontend Development", "Creating an API", "Writing clean code", "Avoiding code duplication", "Writing valuable documentation"
       ],
       gitHubLink: "https://github.com/MiaToftx/MoodTrackerProject"
     },
-    //Project 3 details
-    {
-      id: 3,
-      name: "3. Project",
-      descriptionHeader: "Description of Project 3",
-      description: "",
-      largeImages: [
-        "./images/portfolioProject/project1image1.jpg",
-        "./images/portfolioProject/project1image2.jpg",
-        "./images/portfolioProject/project1image3.jpg"
-      ],
-      smallImages: [
-        "./images/portfolioProject/project1image1small.jpg",
-        "./images/portfolioProject/project1image2small.jpg",
-        "./images/portfolioProject/project1image3small.jpg"
-      ],
-      newSkills: [
-        "HTML", "CSS", "Javascript", "Frontend development", "Functional programming"
-      ],
-      oldSkills: [
-        "Writing understandable code", "Avoid code duplication", "Write valuable documentation"
-      ],
-      gitHubLink: "https://github.com/"
-    }
 ]
 
 // Function to split a list into chunks of a specified size
