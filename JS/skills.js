@@ -3,8 +3,6 @@ const characteristics = [
     "Driven",
     "Outgoing",
     "Teamplayer",
-    "Independent",
-    "Social",
     "Detail oriented",
     "Problem-solving",
     "Creative"
@@ -12,12 +10,12 @@ const characteristics = [
   
 const tools = [
     "Java",
+    ".Net and C#",
     "Javascript",
     "HTML and CSS",
-    "Express",
-    "Templating",
+    "Swift",
     "SQL",
-    "Firebase",
+    "NoSQL",
     "UML",
     "Agile development",
     "Jira",
