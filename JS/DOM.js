@@ -32,7 +32,7 @@ const projectsList = [
       oldSkills: [
         "Writing understandable code", "Avoid code duplication", "Write valuable documentation"
       ],
-      gitHubLink: "https://github.com/MiaToftx/Portfolio-Website"
+      gitHubLink: "https://github.com/MiaToftx/MiaToftx.github.io"
     },
     //Project 2 details
     {
